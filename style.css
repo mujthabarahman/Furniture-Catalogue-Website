@@ -100,9 +100,15 @@ button:hover{
     color: white;
     border: none;
 }
+button:focus{
+    outline: none!important;
+}
 .navbar-toggler{
     width: auto!important;
     height: auto!important;
+}
+.navbar-toggler:hover{
+    background-color: transparent!important;
 }
 .row{
     margin-top: 20px;
