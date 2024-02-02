@@ -121,6 +121,7 @@ button:focus{
         align-items: center;
         justify-content: center;
         margin-left: 0;
+        padding: 0 35px 0 35px;
     }
 }
 /* content */
@@ -169,6 +170,12 @@ button:focus{
     text-align: center;
 }
 @media screen and (max-width: 767px){
+    .col-md-6 p{
+        text-align: center;
+    }
+    .content{
+        margin-left: 0;
+    }
     #c h3{
         font-size: medium;
     }
