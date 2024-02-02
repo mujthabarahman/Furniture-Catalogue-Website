@@ -86,6 +86,7 @@
 }
 .content p{
     width: 470px;
+    text-align: center;
 }
 button{
     width: 150px;
@@ -178,6 +179,12 @@ button:focus{
 #c p{
     font-weight: bold;
 }
+#c{
+    min-height: 385px;
+}
+#c h3{
+    font-size: larger;
+}
 #btn3{
     text-align: center;
 }
@@ -192,7 +199,7 @@ button:focus{
 #btn3 button:hover{
     background-color: rgba(238,224,208);
 } */
-@media screen and (max-width:895px){
+@media screen and (max-width:991px){
     #btn3 button{
         width: 100px;
     }
