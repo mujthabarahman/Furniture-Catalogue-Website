@@ -61,7 +61,6 @@
     background-color: rgba(238,224,208);
 }
 .navbar-nav{
-    margin-top: 10px!important;
     margin: auto;
 }
 .nav-link{
@@ -86,9 +85,9 @@
 }
 .content p{
     width: 470px;
-    text-align: center;
 }
 button{
+    padding: 0 5px 0 5px;
     width: 150px;
     height: 45px;
     background: transparent;
@@ -112,23 +111,9 @@ button:focus{
 .navbar-toggler:hover{
     background-color: transparent!important;
 }
-.row{
-    margin-top: 20px;
-}
 @media screen and (max-width:420px){
-    #btn4{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     .content h1{
         font-size: 30px;
-        text-align: center;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .content p{
-        width: auto;
     }
     .content{
         display: flex;
@@ -136,11 +121,6 @@ button:focus{
         align-items: center;
         justify-content: center;
         margin-left: 0;
-    }
-    #btn1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 }
 /* content */
@@ -187,6 +167,31 @@ button:focus{
 }
 #btn3{
     text-align: center;
+}
+@media screen and (max-width: 767px){
+    #c h3{
+        font-size: medium;
+    }
+    .content h1{
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .content p{
+        width: auto;
+        text-align: center;
+    }
+    #btn1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #btn4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
 /* #btn3 button{
     width: 150px;
