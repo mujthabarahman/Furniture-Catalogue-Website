@@ -136,7 +136,7 @@ button:focus {
 
 @media screen and (max-width:420px) {
     .navbar .logo {
-        top: -32px!important;
+        top: -33px!important;
     }
     .navbar .logo h3{
         width: 105px!important;
