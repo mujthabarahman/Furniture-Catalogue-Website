@@ -320,11 +320,11 @@ button:focus {
 .copyright {
     color: white;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .credite {
     color: white;
+    padding-bottom: 20px;
 }
 
 /* footer */
